@@ -17,7 +17,7 @@
  
  ################################################################
  
- # <img src="./debye_graphic.png" height=500 alt="Graphic Summary"> 
+ # <img src="./debye_graphic.png" height=400 alt="Graphic Summary"> 
  
  1. Each frame of the input trajectories are clustered using a defined cutoff distance with single-link hierarchical clustering. The minimum image convention is applied when calculating distances. Multiple trajectories may be input at once to generate a larger ensemble average. 
  
