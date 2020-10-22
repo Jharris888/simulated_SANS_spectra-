@@ -23,7 +23,7 @@
 
 3. The Debye scattering function is called a separate time for each type of pair distance histogram, and for each Q scattering vector. For each type of histogram call, the correct bij scattering length constant is input to the Debye function. The output is a len(Q) list of scattering intensities, I_Q, which should be normalized by dividing by the first term, I_Q[0]
 
-![Graphic Summary](./debye_graphic.pdf)
+![Graphic Summary](./debye_graphic.png)
 
 
 
