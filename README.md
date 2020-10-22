@@ -19,7 +19,7 @@
  
  # <img src="./debye_graphic.png" height=400 alt="Graphic Summary"> 
  
- 1. Each frame of the input trajectories are clustered using a defined cutoff distance with single-link hierarchical clustering. The minimum image convention is applied when calculating distances. Multiple trajectories may be input at once to generate a larger ensemble average. 
+ 1. Each frame of the input trajectories is clustered using a defined cutoff distance with single-link hierarchical clustering. The minimum image convention is applied when calculating distances. Multiple trajectories may be input at once to generate a larger ensemble average. 
  
  2. The interatomic distances (rij) are computed for the atoms within each cluster. The distances from all replicates and frames are binned into the same histograms, which are considered to be part of the same equilibrium ensemble. The pair distance histograms are separated by atom type, so that each possible pair of atom types has its own binning. The different types of pairs are separated so that the correct scattering lengths can be applied in the Debye formula. 
 
