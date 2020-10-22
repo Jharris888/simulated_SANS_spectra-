@@ -17,7 +17,7 @@
  
  ################################################################
  
- # <img src="./debye_graphic.pdf" height=32 alt="Graphic Summary"> 
+ # <img src="./debye_graphic.png" height=32 alt="Graphic Summary"> 
  
  1. Each frame of the input trajectories are clustered using a defined cutoff distance with single-link hierarchical clustering. The minimum image convention is applied when calculating distances. Multiple trajectories may be input at once to generate a larger ensemble average. 
  
@@ -25,10 +25,6 @@
 
 3. The Debye scattering function is called a separate time for each type of pair distance histogram, and for each Q scattering vector. For each type of histogram call, the correct bij scattering length constant is input to the Debye function. The output is a len(Q) list of scattering intensities, I_Q, which should be normalized by dividing by the first term, I_Q[0]
 
-<<<<<<< HEAD
-![Graphic Summary](./debye_graphic.png)
 
-=======
->>>>>>> 48ad808fcb611b795509e02db59efd809d0ec71e
 
  
