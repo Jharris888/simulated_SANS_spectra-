@@ -28,5 +28,6 @@
 img[src~="thumbnail"] {
    width:150px;
    height:100px;
+   }
 
  
