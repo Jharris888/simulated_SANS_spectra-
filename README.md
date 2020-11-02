@@ -1,6 +1,6 @@
 # simulated_SANS_spectra 
 # Jonathan Harris
-# last updated 10.21.20
+# last updated 11.1.20
 
  Uses the Debye scattering equation to compute the small-angle neutron scattering (SANS) profile for a surfactant system trajectory. 
  
@@ -25,6 +25,12 @@
 
 3. The Debye scattering function is called a separate time for each type of pair distance histogram, and for each Q scattering vector. For each type of histogram call, the correct bij scattering length constant is input to the Debye function. The output is a len(Q) list of scattering intensities, I_Q, which should be normalized by dividing by the first term, I_Q[0]
 
+References: 
 
+Experimental DPC micelle SANS spectrum: Pambou, E. et al. Structural Features of Micelles of Zwitterionic Dodecyl-phosphocholine (C<inf>12</inf>PC) Surfactants Studied by Small-Angle Neutron Scattering. Langmuir 31, 9781–9789 (2015).
+
+Debye Scattering Equation: Pedersen, J. S. Analysis of small-angle scattering data from colloids and polymer solutions: Modeling and least-squares fitting. Advances in Colloid and Interface Science 70, 171–210 (1997).
+
+SANS scattering lengths: Keller, A. Reports on Progress in Physics Related content. Rep. Prog. Phys. 59, 1665–1735 (1996).
 
  
